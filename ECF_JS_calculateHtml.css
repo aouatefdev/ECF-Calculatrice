@@ -1,0 +1,51 @@
+/* 
+* Feuille de style de l'ECF : ECF_JS_CalculateHtml.css
+* Didier Bonneau
+* Afpa DWWM Créteil maj 29-07-2021
+*/
+.grid-calculate {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px 5px;
+    grid-template-areas: "resultat resultat resultat resultat"
+        "bouton1 bouton2 bouton3 bouton4"
+        "bouton1 bouton2 bouton3 bouton4"
+        "bouton1 bouton2 bouton3 bouton4"
+        "bouton1 bouton2 bouton3 bouton4"
+        "bouton1 bouton2 bouton3 bouton4";
+    width:400px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.resultat { grid-area: resultat;
+            background-color: #99ffff;
+}
+
+.bouton1, .bouton2, .bouton3, .bouton4 {
+    grid-area: bouton;
+    background-color: #99ccff;
+}
+
+.resultat input {
+    width: 80%;
+    height: 70%;
+    margin-left: 60px;
+    margin-top: 2%;
+    text-align:right;
+    font-size: 2em;
+}
+.bouton button{
+    width: 100%;
+    height: 100%;
+    font-size: 2em;
+
+}
+
+.calculate {
+    border: 2px solid #CCCCCC;
+    padding: 4px;
+}
+
+h1, h2 {text-align: center;}
