@@ -1,6 +1,6 @@
 # ECF-Calculatrice
 
-Ce projet "CalculatriceHtmlCssJs" est une application de calculatrice simple développée en utilisant les technologies HTML, CSS et JavaScript.
+Ce projet "ECF-Calculatrice" est une application de calculatrice simple développée en utilisant les technologies HTML, CSS et JavaScript.
 Il fournit une interface conviviale pour effectuer des opérations de base telles que l'addition, la soustraction, la multiplication et la division.
 
 ## Fonctionnalités
